@@ -1,0 +1,187 @@
+
+/* pizza.HTML */
+
+/*Definição Tabela ocupando toda a tela*/
+table {
+    width:100%;
+    margin-top: 10px;
+}
+/* Configuração do caption da tabela*/
+caption {
+    font-size: 3vw;
+}
+/*Configuração do head da tabela*/
+th {
+    background-color: #F56E00;
+    border: solid 3px black;
+    text-align: center;
+    color: black;
+    font-size: 1.6rem;
+}
+td {
+    font-size: 1.6rem;
+    
+}
+/*Configuração de fonte da tabela*/
+#pizzaria {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+/* Listras da Tabela*/
+tr:nth-child(odd) {
+    background-color: #E08700;
+}
+/* Paddind dos dados da tabela*/
+#pizzaria td {  
+    color: black;
+}
+/* Hover nas linhas da Tabela*/
+#pizzaria tr:hover {background-color: #FCB80A;
+}
+/*Alinhamento dos Preços*/
+.preco {
+    text-align: center;
+}
+/* Imagens do interior do cardápio*/
+.img_inside {
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Imagem Exterior do Cardápio */
+img#tipo_pizza {
+    border: 8px solid #F56E00;;
+}
+/* Divisão espaço colunas da tabela*/
+#nomeItem #imagem #preco {
+    display:20%;
+}
+#desc {
+    display:40%;
+}
+/* Configuração Texto ao passar o mouse sobre o item */
+
+      /* Video */
+iframe {
+    float: left;
+}
+      /* Imagem geral */
+#tipo_pizza {
+    float:right;
+    width: 350px;
+}
+
+      /* Quadro com descrição dentro */
+#DescInd {
+    float: right;
+    border: 3px #F56E00 dashed;
+    max-width: 350px;
+    padding: 0 20px 0 20px;
+    margin-right: 20px;
+}
+h1 {
+    font-size: 1.5vw;
+    color: black;
+}
+/* Configurações Responsividade */
+@media (max-width: 1200px) {
+    iframe {
+        width: 400px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #tipo_pizza {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #DescInd {
+        max-width: 300px;
+    }
+    th, td {
+        font-size:1.3rem;
+    }
+
+}
+@media (max-width: 850px) {
+    iframe {
+        width: 150px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #tipo_pizza {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #DescInd {
+        max-width: 200px;
+    }
+    #DescInd h1 {
+        font-size: 16px;
+    }
+    th, td {
+        font-size:.9rem;
+    }
+
+}
+
+.font_title_main {
+    font-size: 4rem;
+    text-shadow: 0 0 8px #f2ff80, 0 0 7px #0000FF;
+}
+#title_desc1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+    padding: 3px 3px 3px 20px;
+    background: rgba(43, 43, 43, 0.5);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+#title_desc2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+    padding: 3px 3px 3px 20px;
+    background: rgba(43, 43, 43, 0.5);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    max-width: 550px;
+}
+#title_desc3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+    padding: 3px 3px 3px 20px;
+    background:rgba(43, 43, 43, 0.5);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    max-width: 750px;
+}
+
+.bg-dark-red {
+    display:block;
+    background-color: rgb(219, 61, 0)
+}
+
+/* Formulário */
+
+#formu {
+    margin: 30px;
+}
+.form-label {
+    font-size: 0.9vw;
+    
+}
+.lacuna {
+    height:2.4vw;
+}
+.space_lines {
+    margin-top: 0px;
+}
+#selec_h {
+    font-size: 100px;
+}
