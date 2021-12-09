@@ -1,0 +1,35 @@
+.font_title_main {
+    font-size: 4rem;
+    text-shadow: 0 0 8px #f2ff80, 0 0 7px #0000FF;
+}
+.title_desc_p1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9rem;
+    padding: 3px 3px 3px 20px;
+    background: rgba(43, 43, 43, 0.5);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    max-width: 700px;
+}
+.title_desc_p2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9rem;
+    padding: 3px 3px 3px 20px;
+    background: rgba(43, 43, 43, 0.5);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+.title_desc_p3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9rem;
+    padding: 3px 3px 3px 20px;
+    background: rgba(43, 43, 43, 0.5);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    width: 900px;
+}
+.bg-dark-red {
+    display:block;
+    background-color: #f04c00;
+}
