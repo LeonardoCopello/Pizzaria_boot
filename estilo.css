@@ -76,7 +76,6 @@ iframe {
       /* Quadro com descrição dentro */
 #DescInd {
     float: right;
-    border: 3px #F56E00 dashed;
     max-width: 350px;
     padding: 0 20px 0 20px;
     margin-right: 20px;
